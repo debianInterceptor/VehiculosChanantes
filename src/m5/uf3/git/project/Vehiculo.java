@@ -7,6 +7,13 @@ public class Vehiculo {
 	private int puertas;
 	private int velocidadActual;
 	
+	public Vehiculo(int cilindrada, int puertas, int velocidadActual) {
+		super();
+		this.cilindrada = cilindrada;
+		this.puertas = puertas;
+		this.velocidadActual = 0;
+	}
+
 	public void acelerarVehiculo() {
 		if(this.velocidadActual!=VELOCIDAD_MAXIMA) {
 			velocidadActual+=10;
