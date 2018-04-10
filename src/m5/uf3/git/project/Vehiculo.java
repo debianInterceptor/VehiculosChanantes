@@ -19,4 +19,9 @@ public class Vehiculo {
 			velocidadActual+=10;
 		}
 	}
+	public void desacelerarVehiculo() {
+		if(this.velocidadActual>0) {
+			velocidadActual-=10;
+		}
+	}
 }
